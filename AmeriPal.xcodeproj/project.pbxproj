@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		92EEA12C2A053E5F0042CDA5 /* AmeriPalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92EEA12B2A053E5F0042CDA5 /* AmeriPalApp.swift */; };
+		92EEA12E2A053E5F0042CDA5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92EEA12D2A053E5F0042CDA5 /* ContentView.swift */; };
+		92EEA1302A053E610042CDA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92EEA12F2A053E610042CDA5 /* Assets.xcassets */; };
+		92EEA1332A053E610042CDA5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92EEA1322A053E610042CDA5 /* Preview Assets.xcassets */; };
+		92EEA13D2A053E620042CDA5 /* AmeriPalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92EEA13C2A053E620042CDA5 /* AmeriPalTests.swift */; };
+		92EEA1472A053E620042CDA5 /* AmeriPalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92EEA1462A053E620042CDA5 /* AmeriPalUITests.swift */; };
+		92EEA1492A053E620042CDA5 /* AmeriPalUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92EEA1482A053E620042CDA5 /* AmeriPalUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		92EEA1392A053E620042CDA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92EEA1202A053E5F0042CDA5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92EEA1272A053E5F0042CDA5;
+			remoteInfo = AmeriPal;
+		};
+		92EEA1432A053E620042CDA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92EEA1202A053E5F0042CDA5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92EEA1272A053E5F0042CDA5;
+			remoteInfo = AmeriPal;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		92EEA1282A053E5F0042CDA5 /* AmeriPal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AmeriPal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		92EEA12B2A053E5F0042CDA5 /* AmeriPalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmeriPalApp.swift; sourceTree = "<group>"; };
+		92EEA12D2A053E5F0042CDA5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		92EEA12F2A053E610042CDA5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		92EEA1322A053E610042CDA5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		92EEA1382A053E620042CDA5 /* AmeriPalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AmeriPalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		92EEA13C2A053E620042CDA5 /* AmeriPalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmeriPalTests.swift; sourceTree = "<group>"; };
+		92EEA1422A053E620042CDA5 /* AmeriPalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AmeriPalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		92EEA1462A053E620042CDA5 /* AmeriPalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmeriPalUITests.swift; sourceTree = "<group>"; };
+		92EEA1482A053E620042CDA5 /* AmeriPalUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmeriPalUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		92EEA1252A053E5F0042CDA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92EEA1352A053E620042CDA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92EEA13F2A053E620042CDA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		92EEA11F2A053E5F0042CDA5 = {
+			isa = PBXGroup;
+			children = (
+				92EEA12A2A053E5F0042CDA5 /* AmeriPal */,
+				92EEA13B2A053E620042CDA5 /* AmeriPalTests */,
+				92EEA1452A053E620042CDA5 /* AmeriPalUITests */,
+				92EEA1292A053E5F0042CDA5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		92EEA1292A053E5F0042CDA5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				92EEA1282A053E5F0042CDA5 /* AmeriPal.app */,
+				92EEA1382A053E620042CDA5 /* AmeriPalTests.xctest */,
+				92EEA1422A053E620042CDA5 /* AmeriPalUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		92EEA12A2A053E5F0042CDA5 /* AmeriPal */ = {
+			isa = PBXGroup;
+			children = (
+				92EEA12B2A053E5F0042CDA5 /* AmeriPalApp.swift */,
+				92EEA12D2A053E5F0042CDA5 /* ContentView.swift */,
+				92EEA12F2A053E610042CDA5 /* Assets.xcassets */,
+				92EEA1312A053E610042CDA5 /* Preview Content */,
+			);
+			path = AmeriPal;
+			sourceTree = "<group>";
+		};
+		92EEA1312A053E610042CDA5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				92EEA1322A053E610042CDA5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		92EEA13B2A053E620042CDA5 /* AmeriPalTests */ = {
+			isa = PBXGroup;
+			children = (
+				92EEA13C2A053E620042CDA5 /* AmeriPalTests.swift */,
+			);
+			path = AmeriPalTests;
+			sourceTree = "<group>";
+		};
+		92EEA1452A053E620042CDA5 /* AmeriPalUITests */ = {
+			isa = PBXGroup;
+			children = (
+				92EEA1462A053E620042CDA5 /* AmeriPalUITests.swift */,
+				92EEA1482A053E620042CDA5 /* AmeriPalUITestsLaunchTests.swift */,
+			);
+			path = AmeriPalUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		92EEA1272A053E5F0042CDA5 /* AmeriPal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92EEA14C2A053E620042CDA5 /* Build configuration list for PBXNativeTarget "AmeriPal" */;
+			buildPhases = (
+				92EEA1242A053E5F0042CDA5 /* Sources */,
+				92EEA1252A053E5F0042CDA5 /* Frameworks */,
+				92EEA1262A053E5F0042CDA5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AmeriPal;
+			productName = AmeriPal;
+			productReference = 92EEA1282A053E5F0042CDA5 /* AmeriPal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		92EEA1372A053E620042CDA5 /* AmeriPalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92EEA14F2A053E620042CDA5 /* Build configuration list for PBXNativeTarget "AmeriPalTests" */;
+			buildPhases = (
+				92EEA1342A053E620042CDA5 /* Sources */,
+				92EEA1352A053E620042CDA5 /* Frameworks */,
+				92EEA1362A053E620042CDA5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92EEA13A2A053E620042CDA5 /* PBXTargetDependency */,
+			);
+			name = AmeriPalTests;
+			productName = AmeriPalTests;
+			productReference = 92EEA1382A053E620042CDA5 /* AmeriPalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		92EEA1412A053E620042CDA5 /* AmeriPalUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92EEA1522A053E620042CDA5 /* Build configuration list for PBXNativeTarget "AmeriPalUITests" */;
+			buildPhases = (
+				92EEA13E2A053E620042CDA5 /* Sources */,
+				92EEA13F2A053E620042CDA5 /* Frameworks */,
+				92EEA1402A053E620042CDA5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92EEA1442A053E620042CDA5 /* PBXTargetDependency */,
+			);
+			name = AmeriPalUITests;
+			productName = AmeriPalUITests;
+			productReference = 92EEA1422A053E620042CDA5 /* AmeriPalUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		92EEA1202A053E5F0042CDA5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					92EEA1272A053E5F0042CDA5 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					92EEA1372A053E620042CDA5 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 92EEA1272A053E5F0042CDA5;
+					};
+					92EEA1412A053E620042CDA5 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 92EEA1272A053E5F0042CDA5;
+					};
+				};
+			};
+			buildConfigurationList = 92EEA1232A053E5F0042CDA5 /* Build configuration list for PBXProject "AmeriPal" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 92EEA11F2A053E5F0042CDA5;
+			productRefGroup = 92EEA1292A053E5F0042CDA5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				92EEA1272A053E5F0042CDA5 /* AmeriPal */,
+				92EEA1372A053E620042CDA5 /* AmeriPalTests */,
+				92EEA1412A053E620042CDA5 /* AmeriPalUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		92EEA1262A053E5F0042CDA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92EEA1332A053E610042CDA5 /* Preview Assets.xcassets in Resources */,
+				92EEA1302A053E610042CDA5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92EEA1362A053E620042CDA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92EEA1402A053E620042CDA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		92EEA1242A053E5F0042CDA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92EEA12E2A053E5F0042CDA5 /* ContentView.swift in Sources */,
+				92EEA12C2A053E5F0042CDA5 /* AmeriPalApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92EEA1342A053E620042CDA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92EEA13D2A053E620042CDA5 /* AmeriPalTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92EEA13E2A053E620042CDA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92EEA1492A053E620042CDA5 /* AmeriPalUITestsLaunchTests.swift in Sources */,
+				92EEA1472A053E620042CDA5 /* AmeriPalUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		92EEA13A2A053E620042CDA5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 92EEA1272A053E5F0042CDA5 /* AmeriPal */;
+			targetProxy = 92EEA1392A053E620042CDA5 /* PBXContainerItemProxy */;
+		};
+		92EEA1442A053E620042CDA5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 92EEA1272A053E5F0042CDA5 /* AmeriPal */;
+			targetProxy = 92EEA1432A053E620042CDA5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		92EEA14A2A053E620042CDA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		92EEA14B2A053E620042CDA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		92EEA14D2A053E620042CDA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AmeriPal/Preview Content\"";
+				DEVELOPMENT_TEAM = BV7A9X77F6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.strongbeard.AmeriPal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		92EEA14E2A053E620042CDA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AmeriPal/Preview Content\"";
+				DEVELOPMENT_TEAM = BV7A9X77F6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.strongbeard.AmeriPal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		92EEA1502A053E620042CDA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BV7A9X77F6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.strongbeard.AmeriPalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AmeriPal.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AmeriPal";
+			};
+			name = Debug;
+		};
+		92EEA1512A053E620042CDA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BV7A9X77F6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.strongbeard.AmeriPalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AmeriPal.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AmeriPal";
+			};
+			name = Release;
+		};
+		92EEA1532A053E620042CDA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BV7A9X77F6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.strongbeard.AmeriPalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AmeriPal;
+			};
+			name = Debug;
+		};
+		92EEA1542A053E620042CDA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BV7A9X77F6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.strongbeard.AmeriPalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AmeriPal;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		92EEA1232A053E5F0042CDA5 /* Build configuration list for PBXProject "AmeriPal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92EEA14A2A053E620042CDA5 /* Debug */,
+				92EEA14B2A053E620042CDA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92EEA14C2A053E620042CDA5 /* Build configuration list for PBXNativeTarget "AmeriPal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92EEA14D2A053E620042CDA5 /* Debug */,
+				92EEA14E2A053E620042CDA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92EEA14F2A053E620042CDA5 /* Build configuration list for PBXNativeTarget "AmeriPalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92EEA1502A053E620042CDA5 /* Debug */,
+				92EEA1512A053E620042CDA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92EEA1522A053E620042CDA5 /* Build configuration list for PBXNativeTarget "AmeriPalUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92EEA1532A053E620042CDA5 /* Debug */,
+				92EEA1542A053E620042CDA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 92EEA1202A053E5F0042CDA5 /* Project object */;
+}
