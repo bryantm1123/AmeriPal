@@ -8,8 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		9231D94B2A09552E007E7A18 /* UnitConversion in Frameworks */ = {isa = PBXBuildFile; productRef = 9231D94A2A09552E007E7A18 /* UnitConversion */; };
+		9231D94D2A0957E1007E7A18 /* ConversionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9231D94C2A0957E1007E7A18 /* ConversionViewModel.swift */; };
 		92EEA12C2A053E5F0042CDA5 /* AmeriPalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92EEA12B2A053E5F0042CDA5 /* AmeriPalApp.swift */; };
-		92EEA12E2A053E5F0042CDA5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92EEA12D2A053E5F0042CDA5 /* ContentView.swift */; };
+		92EEA12E2A053E5F0042CDA5 /* ConversionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92EEA12D2A053E5F0042CDA5 /* ConversionView.swift */; };
 		92EEA1302A053E610042CDA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92EEA12F2A053E610042CDA5 /* Assets.xcassets */; };
 		92EEA1332A053E610042CDA5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92EEA1322A053E610042CDA5 /* Preview Assets.xcassets */; };
 		92EEA13D2A053E620042CDA5 /* AmeriPalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92EEA13C2A053E620042CDA5 /* AmeriPalTests.swift */; };
@@ -35,9 +36,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9231D94C2A0957E1007E7A18 /* ConversionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversionViewModel.swift; sourceTree = "<group>"; };
 		92EEA1282A053E5F0042CDA5 /* AmeriPal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AmeriPal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		92EEA12B2A053E5F0042CDA5 /* AmeriPalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmeriPalApp.swift; sourceTree = "<group>"; };
-		92EEA12D2A053E5F0042CDA5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		92EEA12D2A053E5F0042CDA5 /* ConversionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversionView.swift; sourceTree = "<group>"; };
 		92EEA12F2A053E610042CDA5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		92EEA1322A053E610042CDA5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		92EEA1382A053E620042CDA5 /* AmeriPalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AmeriPalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -73,6 +75,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9231D94E2A097103007E7A18 /* UnitConversionFeature */ = {
+			isa = PBXGroup;
+			children = (
+				9231D94C2A0957E1007E7A18 /* ConversionViewModel.swift */,
+				92EEA12D2A053E5F0042CDA5 /* ConversionView.swift */,
+			);
+			path = UnitConversionFeature;
+			sourceTree = "<group>";
+		};
 		92EEA11F2A053E5F0042CDA5 = {
 			isa = PBXGroup;
 			children = (
@@ -96,8 +107,8 @@
 		92EEA12A2A053E5F0042CDA5 /* AmeriPal */ = {
 			isa = PBXGroup;
 			children = (
+				9231D94E2A097103007E7A18 /* UnitConversionFeature */,
 				92EEA12B2A053E5F0042CDA5 /* AmeriPalApp.swift */,
-				92EEA12D2A053E5F0042CDA5 /* ContentView.swift */,
 				92EEA12F2A053E610042CDA5 /* Assets.xcassets */,
 				92EEA1312A053E610042CDA5 /* Preview Content */,
 			);
@@ -265,8 +276,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				92EEA12E2A053E5F0042CDA5 /* ContentView.swift in Sources */,
+				92EEA12E2A053E5F0042CDA5 /* ConversionView.swift in Sources */,
 				92EEA12C2A053E5F0042CDA5 /* AmeriPalApp.swift in Sources */,
+				9231D94D2A0957E1007E7A18 /* ConversionViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

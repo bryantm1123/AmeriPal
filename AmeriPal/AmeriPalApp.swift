@@ -4,7 +4,7 @@ import SwiftUI
 struct AmeriPalApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ConversionView()
         }
     }
 }
