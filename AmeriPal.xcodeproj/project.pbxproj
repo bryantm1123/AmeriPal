@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9231D94B2A09552E007E7A18 /* UnitConversion in Frameworks */ = {isa = PBXBuildFile; productRef = 9231D94A2A09552E007E7A18 /* UnitConversion */; };
 		92EEA12C2A053E5F0042CDA5 /* AmeriPalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92EEA12B2A053E5F0042CDA5 /* AmeriPalApp.swift */; };
 		92EEA12E2A053E5F0042CDA5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92EEA12D2A053E5F0042CDA5 /* ContentView.swift */; };
 		92EEA1302A053E610042CDA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92EEA12F2A053E610042CDA5 /* Assets.xcassets */; };
@@ -51,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9231D94B2A09552E007E7A18 /* UnitConversion in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,6 +145,9 @@
 			dependencies = (
 			);
 			name = AmeriPal;
+			packageProductDependencies = (
+				9231D94A2A09552E007E7A18 /* UnitConversion */,
+			);
 			productName = AmeriPal;
 			productReference = 92EEA1282A053E5F0042CDA5 /* AmeriPal.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +220,9 @@
 				Base,
 			);
 			mainGroup = 92EEA11F2A053E5F0042CDA5;
+			packageReferences = (
+				9231D9492A09552E007E7A18 /* XCRemoteSwiftPackageReference "UnitConversion" */,
+			);
 			productRefGroup = 92EEA1292A053E5F0042CDA5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -583,6 +591,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9231D9492A09552E007E7A18 /* XCRemoteSwiftPackageReference "UnitConversion" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/bryantm1123/UnitConversion";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9231D94A2A09552E007E7A18 /* UnitConversion */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9231D9492A09552E007E7A18 /* XCRemoteSwiftPackageReference "UnitConversion" */;
+			productName = UnitConversion;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 92EEA1202A053E5F0042CDA5 /* Project object */;
 }

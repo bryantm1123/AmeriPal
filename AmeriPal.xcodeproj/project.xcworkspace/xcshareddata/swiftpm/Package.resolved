@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "unitconversion",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/bryantm1123/UnitConversion",
+      "state" : {
+        "branch" : "main",
+        "revision" : "14980473b2081e7da11d22bcaa02521a1d08c626"
+      }
+    }
+  ],
+  "version" : 2
+}
