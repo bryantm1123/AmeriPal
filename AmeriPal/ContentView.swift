@@ -1,10 +1,3 @@
-//
-//  ContentView.swift
-//  AmeriPal
-//
-//  Created by Matt Bryant on 5/5/23.
-//
-
 import SwiftUI
 
 struct ContentView: View {
